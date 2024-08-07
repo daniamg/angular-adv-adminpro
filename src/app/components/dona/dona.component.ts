@@ -15,13 +15,13 @@ export class DonaComponent {
 
 
        // Doughnut
-   public doughnutChartLabels: string[] = [
-    'Download Sales',
-    'In-Store Sales',
-    'Mail-Order Sales',
+ @Input('labels') doughnutChartLabels: string[] = [
+    'Label1',
+    'Label2',
+    'Label2',
   ];
-  public doughnutChartData: ChartData<'doughnut'> = {
-    labels: this.doughnutChartLabels,
+  @Input('data') doughnutChartData: ChartData<'doughnut'> = {
+    // labels: this.doughnutChartLabels,
     datasets: [
       { data: [350, 450, 100] },
       // { data: [50, 150, 120] ,backgroundColor:'#1428F7' },

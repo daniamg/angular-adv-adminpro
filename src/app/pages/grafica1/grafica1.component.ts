@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class Grafica1Component {
 
   labels1: string[] = ['Dania','Debie','Kira',];
-  data1 = [{data:[350, 450, 100]}]
-  labels2: string[] = ['Marco','Angel','Mateo',];
-  data2 = [{data:[150, 250, 200]}]
+  data1 = [[350, 450, 100]]
+  // labels2: string[] = ['Marco','Angel','Mateo',];
+  // data2 = [{data:[150, 250, 200]}]
 }
