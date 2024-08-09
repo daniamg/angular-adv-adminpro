@@ -16,7 +16,7 @@ export class PagesComponent implements OnInit {
   ngOnInit() {
 
     customInitFunctions();
-    // let theme = localStorage.getItem('theme') || './assets/css/colors/purple-dark.css';
+    // let theme = localStorage.getItem('theme') || './assets/css/colors/purple-dark.css';8
     // console.log(theme, 'local')
     // //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     // //Add 'implements OnInit' to the class.
